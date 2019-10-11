@@ -1,12 +1,73 @@
-/* font-family: 'Open Sans', sans-serif; */
-/* font-family: 'Open Sans', sans-serif; */
-
+body {
+  font-family: "Open Sans", sans-serif;
+}
 /*
 COLORS
 H1, Get answer button, text in input field: #2B4E80;
 Get answer button disabled: #607AA0;
 Get answer button hover: #1C3455;
-light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+h1 {
+  color: #2B4E80;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background-color: #E6ECF4;
+  float:left;
+  width: 30%;
+  overflow: hidden;
+  margin-left: 20%;
+}
+
+.magic {
+  margin-left: 15%;
+}
+
+#question {
+  height: 30%;
+  width: 75%;
+  margin-top: 3%;
+  text-align: center;
+  color: #2B4E80;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#answer {
+  height: 30%;
+  width: 76%;
+  background-color: #607AA0;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+#eight-ball {
+  height: 30%;
+  width: 30%;
+  margin-top: 10%;
+  display: block;
+  padding-left: 35%;
+}
+
+#clear {
+  height: 2%;
+  width: 10%;
+  margin: 0% 10% 10% 0%;
+  padding: 2% 4%;
+  float: right;
+  background-color: #D0CDCD;
+  border-radius: 0%;
+  display: flex;
+  justify-content: center;
+}
+
+#woody {
+  height: 25%;
+  width: 15%;
+  display: block;
+  float: right;
+  margin-right: 28%;
+}
